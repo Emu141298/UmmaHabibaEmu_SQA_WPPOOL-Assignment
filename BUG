@@ -1,0 +1,21 @@
+Issue Title:
+Bug: Sidebar Becomes Invisible After 1 Second Due to CSS Issue
+
+Description:
+I've encountered a significant bug while automating the site. The issue is that the sidebar becomes invisible approximately one second after the page loads. This problem seems to be related to CSS and prevents further progress with the automation script. This issue does not occur when the project is live.
+
+Steps to Reproduce:
+Open the Site: Navigate to the admin dashboard of the WordPress site.
+Observe the Sidebar: Watch the sidebar on the left side of the dashboard.
+Wait: After approximately one second, the sidebar disappears.
+Inspect: Use browser developer tools to inspect the CSS styles applied to the sidebar during this time.
+Expected Behavior:
+The sidebar should remain visible and not disappear after loading the page.
+
+Actual Behavior:
+The sidebar becomes invisible after about one second, which seems to be related to a CSS styling issue.
+
+Additional Information:
+CSS Issue: The problem appears to be related to CSS that hides the sidebar temporarily. This issue does not occur when the project is live, indicating it might be a conflict or timing issue with how CSS is applied during the automation.
+Current Status: Automation scripts are blocked by this issue since it affects the visibility of critical UI components needed for further testing.
+Temporary Workaround: This issue may be resolved once the project goes live, suggesting it could be related to the development environment or specific conditions during automated tests.
